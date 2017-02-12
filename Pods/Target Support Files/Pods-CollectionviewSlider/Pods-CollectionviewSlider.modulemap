@@ -1,0 +1,6 @@
+framework module Pods_CollectionviewSlider {
+  umbrella header "Pods-CollectionviewSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
