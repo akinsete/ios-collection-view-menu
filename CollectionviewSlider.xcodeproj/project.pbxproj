@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AE081A81E507F0B00DF4918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081A71E507F0B00DF4918 /* AppDelegate.swift */; };
-		2AE081AA1E507F0B00DF4918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081A91E507F0B00DF4918 /* ViewController.swift */; };
 		2AE081AD1E507F0B00DF4918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE081AB1E507F0B00DF4918 /* Main.storyboard */; };
 		2AE081B01E507F0B00DF4918 /* CollectionviewSlider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081AE1E507F0B00DF4918 /* CollectionviewSlider.xcdatamodeld */; };
 		2AE081B21E507F0B00DF4918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE081B11E507F0B00DF4918 /* Assets.xcassets */; };
 		2AE081B51E507F0B00DF4918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE081B31E507F0B00DF4918 /* LaunchScreen.storyboard */; };
+		2AE081CF1E50A00F00DF4918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081CB1E50A00F00DF4918 /* AppDelegate.swift */; };
+		2AE081D01E50A00F00DF4918 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081CC1E50A00F00DF4918 /* CollectionViewCell.swift */; };
+		2AE081D11E50A00F00DF4918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081CD1E50A00F00DF4918 /* ViewController.swift */; };
+		2AE081D61E50A04D00DF4918 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081D31E50A04D00DF4918 /* UIColor+Extensions.swift */; };
+		2AE081D71E50A04D00DF4918 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081D41E50A04D00DF4918 /* UIView+Extensions.swift */; };
+		2AE081FC1E50E6D400DF4918 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AE081FB1E50E6D400DF4918 /* HeaderView.xib */; };
+		2AE081FE1E50E7B400DF4918 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE081FD1E50E7B400DF4918 /* HeaderView.swift */; };
+		57F2209A2EFDC15E281814DA /* Pods_CollectionviewSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E29C0AA6665D57FD5AEC12 /* Pods_CollectionviewSlider.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24758E916C3CF202A02FC8EC /* Pods-CollectionviewSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionviewSlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionviewSlider/Pods-CollectionviewSlider.release.xcconfig"; sourceTree = "<group>"; };
 		2AE081A41E507F0B00DF4918 /* CollectionviewSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionviewSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AE081A71E507F0B00DF4918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AE081A91E507F0B00DF4918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2AE081AC1E507F0B00DF4918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AE081AF1E507F0B00DF4918 /* CollectionviewSlider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectionviewSlider.xcdatamodel; sourceTree = "<group>"; };
 		2AE081B11E507F0B00DF4918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE081B41E507F0B00DF4918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AE081B61E507F0B00DF4918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE081CA1E50A00E00DF4918 /* CollectionviewSlider-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionviewSlider-Bridging-Header.h"; sourceTree = "<group>"; };
+		2AE081CB1E50A00F00DF4918 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AE081CC1E50A00F00DF4918 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2AE081CD1E50A00F00DF4918 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AE081D31E50A04D00DF4918 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		2AE081D41E50A04D00DF4918 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		2AE081FB1E50E6D400DF4918 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		2AE081FD1E50E7B400DF4918 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		81E29C0AA6665D57FD5AEC12 /* Pods_CollectionviewSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionviewSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3670DC8BFF2EAF2EB266D2 /* Pods-CollectionviewSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionviewSlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionviewSlider/Pods-CollectionviewSlider.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F2209A2EFDC15E281814DA /* Pods_CollectionviewSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,8 @@
 			children = (
 				2AE081A61E507F0B00DF4918 /* CollectionviewSlider */,
 				2AE081A51E507F0B00DF4918 /* Products */,
+				FB9127BD8BD801CDA87FC925 /* Pods */,
+				F911BE322548C9913AC3A371 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +74,47 @@
 		2AE081A61E507F0B00DF4918 /* CollectionviewSlider */ = {
 			isa = PBXGroup;
 			children = (
-				2AE081A71E507F0B00DF4918 /* AppDelegate.swift */,
-				2AE081A91E507F0B00DF4918 /* ViewController.swift */,
+				2AE081D51E50A04D00DF4918 /* Styles */,
+				2AE081CB1E50A00F00DF4918 /* AppDelegate.swift */,
+				2AE081CC1E50A00F00DF4918 /* CollectionViewCell.swift */,
+				2AE081CD1E50A00F00DF4918 /* ViewController.swift */,
 				2AE081AB1E507F0B00DF4918 /* Main.storyboard */,
 				2AE081B11E507F0B00DF4918 /* Assets.xcassets */,
 				2AE081B31E507F0B00DF4918 /* LaunchScreen.storyboard */,
 				2AE081B61E507F0B00DF4918 /* Info.plist */,
 				2AE081AE1E507F0B00DF4918 /* CollectionviewSlider.xcdatamodeld */,
+				2AE081CA1E50A00E00DF4918 /* CollectionviewSlider-Bridging-Header.h */,
+				2AE081FB1E50E6D400DF4918 /* HeaderView.xib */,
+				2AE081FD1E50E7B400DF4918 /* HeaderView.swift */,
 			);
 			path = CollectionviewSlider;
+			sourceTree = "<group>";
+		};
+		2AE081D51E50A04D00DF4918 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				2AE081D31E50A04D00DF4918 /* UIColor+Extensions.swift */,
+				2AE081D41E50A04D00DF4918 /* UIView+Extensions.swift */,
+			);
+			name = Styles;
+			path = ../../../../../../../../../var/folders/zj/m9zm1c0s7cl9rknv3b7pt4hr0000gn/T/CocoaPods/Try/CenteredCollectionView/Example/CenteredCollectionView;
+			sourceTree = "<group>";
+		};
+		F911BE322548C9913AC3A371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E29C0AA6665D57FD5AEC12 /* Pods_CollectionviewSlider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB9127BD8BD801CDA87FC925 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE3670DC8BFF2EAF2EB266D2 /* Pods-CollectionviewSlider.debug.xcconfig */,
+				24758E916C3CF202A02FC8EC /* Pods-CollectionviewSlider.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AE081B91E507F0B00DF4918 /* Build configuration list for PBXNativeTarget "CollectionviewSlider" */;
 			buildPhases = (
+				02800FCD745EE10DF2DCD164 /* [CP] Check Pods Manifest.lock */,
 				2AE081A01E507F0B00DF4918 /* Sources */,
 				2AE081A11E507F0B00DF4918 /* Frameworks */,
 				2AE081A21E507F0B00DF4918 /* Resources */,
+				0A7B05B50AD374B825E19321 /* [CP] Embed Pods Frameworks */,
+				223402EF569957E7F26D1EBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +153,7 @@
 					2AE081A31E507F0B00DF4918 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = R5Q3ZL2EL8;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,19 +184,72 @@
 				2AE081B51E507F0B00DF4918 /* LaunchScreen.storyboard in Resources */,
 				2AE081B21E507F0B00DF4918 /* Assets.xcassets in Resources */,
 				2AE081AD1E507F0B00DF4918 /* Main.storyboard in Resources */,
+				2AE081FC1E50E6D400DF4918 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02800FCD745EE10DF2DCD164 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0A7B05B50AD374B825E19321 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollectionviewSlider/Pods-CollectionviewSlider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		223402EF569957E7F26D1EBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollectionviewSlider/Pods-CollectionviewSlider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2AE081A01E507F0B00DF4918 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE081D71E50A04D00DF4918 /* UIView+Extensions.swift in Sources */,
+				2AE081CF1E50A00F00DF4918 /* AppDelegate.swift in Sources */,
+				2AE081D61E50A04D00DF4918 /* UIColor+Extensions.swift in Sources */,
 				2AE081B01E507F0B00DF4918 /* CollectionviewSlider.xcdatamodeld in Sources */,
-				2AE081AA1E507F0B00DF4918 /* ViewController.swift in Sources */,
-				2AE081A81E507F0B00DF4918 /* AppDelegate.swift in Sources */,
+				2AE081D11E50A00F00DF4918 /* ViewController.swift in Sources */,
+				2AE081D01E50A00F00DF4918 /* CollectionViewCell.swift in Sources */,
+				2AE081FE1E50E7B400DF4918 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,26 +368,35 @@
 		};
 		2AE081BA1E507F0B00DF4918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3670DC8BFF2EAF2EB266D2 /* Pods-CollectionviewSlider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R5Q3ZL2EL8;
 				INFOPLIST_FILE = CollectionviewSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunday.CollectionviewSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CollectionviewSlider/CollectionviewSlider-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2AE081BB1E507F0B00DF4918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24758E916C3CF202A02FC8EC /* Pods-CollectionviewSlider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R5Q3ZL2EL8;
 				INFOPLIST_FILE = CollectionviewSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunday.CollectionviewSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CollectionviewSlider/CollectionviewSlider-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +420,7 @@
 				2AE081BB1E507F0B00DF4918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
